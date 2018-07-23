@@ -1,0 +1,335 @@
+@font-face{
+	font-family: 'fontecabe';
+	src: url("../_fonts/font.otf");
+	font-family: 'fontemenu';
+	src: url("../_fonts/lenise.otf");
+	
+}
+
+
+.header-site {
+	background-image: url(../imagens/lenise.jpeg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #ffffff;
+	padding-top: 300px;
+	padding-bottom: 300px;
+	font-family: 'fontemenu';
+	font-size: 35px;
+	
+}
+
+.header-site h1{
+	font-family: 'fontemenu';
+	font-size: 70px;
+
+
+
+}
+
+.content-site{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: #333333;
+	
+
+}
+
+.content-site h1{
+	font-family: 'fontemenu';
+	font-weight: bold;
+	color:#333333;
+
+
+}
+
+.content-site h3{
+	font-family: 'fontemenu';
+	font-weight: bold;
+	color:#333333;
+
+}
+
+.about-site{
+
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: #333333;
+	background-color: #DCDCDC;
+	padding-top: 150px;
+	padding-bottom: 150px;
+
+}
+
+.about-site p{
+	text-align: justify;
+	font-family: 'fontemenu';
+	font-size:20px;
+	color:#333333;
+
+
+
+}
+
+.about-site h1{
+
+	text-align: center;
+	color:#333333;
+}
+
+
+.imagem-site{
+
+	background-image: url(../imagens/back.jpg);
+	background-position: center-top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	color: #ffffff;
+}
+
+
+.footer{
+	
+		
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		background-color: #333333;
+		color: white;
+		text-align: center;	
+		padding-top: 10px;
+		padding-bottom: 10px;
+}
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333333;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 1;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: 'fontemenu';
+    font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #333;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+
+
+
+.juntos{
+
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: #333333;
+	background-color: #DCDCDC;
+	padding-top: 150px;
+	padding-bottom: 100px;
+
+
+}
+
+.juntos p{
+	text-align: justify;
+	font-family: 'fontemenu';
+	font-size:20px;
+	color:#333333;
+
+
+
+}
+
+.juntos h1{
+	font-family: 'fontemenu';
+	text-align: center;
+	color:#333333;
+}
+
+.juntos a {
+	text-align: center;
+}
+
+.alexia{
+
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: #333333;
+	background-color: #DCDCDC;
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+
+}
+
+.alexia p{
+	text-align: justify;
+	font-family: 'fontemenu';
+	font-size:20px;
+	color:#333333;
+
+
+
+}
+
+.alexia h1{
+	font-family: 'fontemenu';
+	text-align: center;
+	color:#333333;
+}
+
+.alexia a {
+	text-align: center;
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+	position: relative;
+	
+  }
+  
+  /* Slides */
+  .mySlides {
+	display: none;
+	padding: 80px;
+	text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -30px;
+	padding: 16px;
+	color: #888;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+	position: absolute;
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+	text-align: center;
+	padding: 20px;
+	
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+	background-color: #717171;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {
+	font-family: 'fontemenu';
+	font-size:20px;
+	color:#ffffff;
+	font-weight: bold;}
+  
+  /* Add a blue color to the author */
+  .author {
+	font-family: 'fontemenu';
+	font-size:20px;
+	color:#ffffff;
+	font-weight: bold;}
+
+
+	 /*estilizando contato */
+
+ .contato img{
+
+	max-width: 50px;
+	width: auto;
+	background-color: #DCDCDC;
+ }
+
+ .contato h1{
+	font-weight: bold;
+	font-family: 'fontemenu';
+	font-size:30px;
+	color:#333333;
+
+
+ }
+
+ .contato{
+	background-color: #DCDCDC;
+ }
+
+ .thumbnail{
+
+	background-color: #DCDCDC;
+ }
+
+
+
+ 
+
+
+
+
+
+
+
